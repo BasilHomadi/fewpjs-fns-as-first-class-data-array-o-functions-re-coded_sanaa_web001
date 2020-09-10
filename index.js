@@ -24,8 +24,8 @@ function unleashDog(dogName, DogBreed) {
 
 let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
-function exerciseDog(dogName, DogBreed) {
+function exerciseDog(dogName, dogBreed) {
   for (item : routine) {
-    
+    routine[item](dogName, dogBreed)
   }
 }
