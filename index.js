@@ -1,11 +1,11 @@
 var wakeDog = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Wake ${dogName} the ${DogBreed}`)
-  return `Wake ${dogName} the ${DogBreed}`
+  console.log(`Wake ${dogName} the ${dogBreed}`)
+  return `Wake ${dogName} the ${dogBreed}`
 }
 
-var leashDog = function(dogName="Byron", DogBreed="poodle") {
-  console.log(`Leash ${dogName} the ${DogBreed}`)
-  return `Leash ${dogName} the ${DogBreed}`
+var leashDog = function(dogName="Byron", dogBreed="poodle") {
+  console.log(`Leash ${dogName} the ${dogBreed}`)
+  return `Leash ${dogName} the ${dogBreed}`
 }
 
 var walkToPark = function(dogName="Byron", DogBreed="poodle") {
